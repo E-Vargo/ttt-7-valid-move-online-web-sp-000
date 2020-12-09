@@ -5,7 +5,7 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def valid_move(board, index)
+def valid_move?(board, index)
 position_taken
 end
 
