@@ -5,12 +5,14 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def valid_move?(board, index)
 
 
-    if position_taken?(board, index) == true || (index < 1 || index > 8)
-       false
-
-
    elsif position_taken?(board, index) == false
      return true
+
+
+         if position_taken?(board, index) == true || (index < 1 || index > 8)
+            false
+
+
 
 
 
