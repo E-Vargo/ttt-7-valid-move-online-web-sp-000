@@ -2,13 +2,14 @@
 def input_index(input)
 
 end
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move(board, index)
 
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 
 def position_taken?(board, index)
 
