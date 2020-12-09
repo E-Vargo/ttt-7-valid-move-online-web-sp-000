@@ -1,7 +1,4 @@
 # code your #valid_move? method here
-def input_index(input)
-
-end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
