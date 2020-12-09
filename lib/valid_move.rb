@@ -2,10 +2,11 @@
 def input_index(input)
 
 end
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move(board, index)
-
+position_taken
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
