@@ -9,10 +9,10 @@ def valid_move?(board, index)
      return true
 
 
-   elsif position_taken?(board, index) == true || (index < 0 || index > 9)
+   elsif position_taken?(board, index) == true
             false
 
-
+elsif index < 0 || index > 9)
 
 end
 end
