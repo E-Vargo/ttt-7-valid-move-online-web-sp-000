@@ -1,5 +1,6 @@
 # code your #valid_move? method here
 def input_index(input)
+
 end
 
 def valid_move(board, index)
