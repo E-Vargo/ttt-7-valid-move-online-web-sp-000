@@ -5,15 +5,14 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def valid_move?(board, index)
 
 
-   if position_taken?(board, index) == false
+   if !position_taken?(board, index) && index.between?(1,9)
       true
 
 
    elsif position_taken?(board, index) == true
             false
 
-elsif index < 1 || index > 9
-return false || nil
+
 end
 end
 
