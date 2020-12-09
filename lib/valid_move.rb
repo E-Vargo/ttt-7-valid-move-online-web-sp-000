@@ -11,7 +11,7 @@ def valid_move?(board, index)
    elsif position_taken?(board, index) == false
      true
 
-  elsif position_taken?(board, index) == true
+  elsif position_taken?(board, index) == true || (index < 1 || index > 8)
      false
 
 
