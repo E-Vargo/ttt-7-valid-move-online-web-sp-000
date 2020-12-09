@@ -6,10 +6,11 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move?(board, index)
-if position_taken?(board, index) == true
+  if index == between?(0,8)
   return false
-elsif index == between?(0,8)
+elsif position_taken?(board, index) == true
   return false
+
 elsif position_taken?(board, index) == false
   return true
 
