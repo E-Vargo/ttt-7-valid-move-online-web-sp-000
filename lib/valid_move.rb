@@ -13,7 +13,7 @@ def valid_move?(board, index)
             false
 
 elsif index < 1 || index > 9
-false || nil
+return false || nil
 end
 end
 
