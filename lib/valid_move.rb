@@ -2,7 +2,7 @@
 def input_index(input)
 end
 
-def valid_move
+def valid_move(board, index)
 
 end
 
